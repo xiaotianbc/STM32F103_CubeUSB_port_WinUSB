@@ -78,6 +78,11 @@
 /* #define for FS and HS identification */
 #define DEVICE_FS 		0
 
+
+/* add WINUSB support*/
+#ifndef USBD_SUPPORT_WINUSB
+#define USBD_SUPPORT_WINUSB       1U
+#endif
 /**
   * @}
   */

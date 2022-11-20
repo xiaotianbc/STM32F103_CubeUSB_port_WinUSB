@@ -21,9 +21,10 @@
 #include "usb_device.h"
 #include "gpio.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -94,6 +95,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+      char str[] = "hello stm32cubemx_winusb_demo\r\n";
+      CDC_Transmit_FS(str,strlen(str));
+      HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
