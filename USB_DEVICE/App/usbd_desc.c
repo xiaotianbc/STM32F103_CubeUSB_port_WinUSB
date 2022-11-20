@@ -65,8 +65,8 @@
 #define USBD_VID     2022
 #define USBD_LANGID_STRING     1033
 #define USBD_MANUFACTURER_STRING     "STMicroelectronics"
-#define USBD_PID_FS     2022
-#define USBD_PRODUCT_STRING_FS     "WINUSBDemo"
+#define USBD_PID_FS     2023
+#define USBD_PRODUCT_STRING_FS     "StWinUSB"
 #define USBD_CONFIGURATION_STRING_FS     "WINUSB Config"
 #define USBD_INTERFACE_STRING_FS     "WINUSB Interface"
 
