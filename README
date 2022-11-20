@@ -1,0 +1,5 @@
+# STM32F103_CubeUSB_port_WinUSB
+
+使用STM32Cubemx生成CDC项目后，修改为USB设备
+
+参考项目：https://gitee.com/guanglunking/WINUSBF103Demo
